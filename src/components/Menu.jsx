@@ -3,6 +3,10 @@ import { allCocktails } from '../../constants'
 import { useState,useRef} from 'react'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+
+// Register GSAP plugins
+gsap.registerPlugin(ScrollTrigger)
 
 const Menu = () => {
 
