@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <nav>
          <div className="px-4 md:px-8 lg:px-12 xl:px-12 2xl:px-32">
-            <a href="#home" className="flex items-center gap-2">
+            <a href="#hero" className="flex items-center gap-2">
              <img src="/images/logo.png" alt="logo" />
              <p>Your Bar Name</p>
             </a>
